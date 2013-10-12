@@ -1,0 +1,203 @@
+body{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(images/Jail-Cell-Bars.png);
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.error{
+	padding:5px;
+	background-color: rgba(53, 65, 211, 0.9);
+	color: red;
+	border: 3px solid red;
+	border-radius: .5em;
+}
+.error:hover{
+	background-color: rgba(215, 44, 44, 0.6);
+	color: blue;
+}
+.error , .success{
+	background-color: rgba(53, 65, 211, 0.9);
+	color: white;
+	border-radius: .5em;
+	padding:5px;
+	position: absolute;
+	z-index: 9999;
+	top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%
+}
+
+}
+.error{
+	border: 3px solid red;
+}
+
+
+
+#menuBar{
+	width:100%;
+	height: auto;
+	display: inline-block;
+	background-color: rgba(53, 65, 211, 0.9);
+	border: 3px solid black;
+	border-radius: .5em;
+	margin-top: 1em;
+	/*padding-right: 2em;
+	padding-left: 2em;*/
+	-moz-box-shadow:    3px 3px 5px 6px #ccc;
+  	-webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  	box-shadow:         3px 3px 5px 6px #ccc;
+
+}
+#menuBar a {
+	margin: 10px 5px 10px 5px;
+	padding: 10px;
+	border: 2px solid white;
+	background-color: rgba(53, 65, 65, 0.6);
+	border-radius: .5em;
+	display:inline-block;
+	text-decoration: none;
+	color:white;
+	-moz-box-shadow:    inset 0 0 10px #ccc;
+  	-webkit-box-shadow: inset 0 0 10px #ccc;
+  	box-shadow:         inset 0 0 10px #ccc;
+
+}
+#menuBar a:hover{
+	background-color: rgba(220, 65, 65, 0.6);
+	color: black;
+
+}
+#Welcome{
+	position: absolute;
+	z-index: 99;
+	background-color: rgba(88, 133, 162, 0.6);
+	padding: 5px 10px 5px 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	top:10px;
+	left: 10px;
+
+}
+#login{
+	position: absolute;
+	left:50%;
+	z-index: 99;
+	padding: 50px;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: rgba(88, 133, 162, 0.6);
+	-moz-box-shadow:    inset 0 0 40px  rgba(0, 0, 254, 0.6);
+  	-webkit-box-shadow: inset 0 0 40px  rgba(0, 0, 254, 0.6);
+  	box-shadow:         inset 0 0 40px  rgba(0, 0, 254, 0.6);
+}
+#login table{
+	border-radius: 5px;
+	border: 2px solid #ccc;
+	-moz-box-shadow:    inset 0 0 40px  rgba(98, 98, 99, 0.8);
+  	-webkit-box-shadow: inset 0 0 40px  rgba(98, 98, 99, 0.8);
+  	box-shadow:         inset 0 0 40px  rgba(98, 98, 99, 0.8);
+}
+#loginBtn,#logoutBtn,#adminBtn{
+	float: right;
+}
+#lastTen{
+	display: block;
+	float: left;
+	width: 30%;
+	clear: left;
+}
+#searchResult{
+	display: block;
+	float: right;
+	width: 30%;
+	clear: right;
+}
+#lastTen h1, #SearchResult h1, #searchBox h3{
+	background-color: rgba(53, 65, 211, 0.9);
+	border: 3px solid black;
+	border-radius: .5em;
+	color: white;
+	-moz-box-shadow:    inset 0 0 10px #ccc;
+  	-webkit-box-shadow: inset 0 0 10px #ccc;
+  	box-shadow:         inset 0 0 10px #ccc;
+}
+
+#searchBox h3{
+float: right;
+	padding: 5px;
+	display: block;
+}
+
+#searchBox{
+	width: 100%;
+	height: 37px;
+}
+
+#searchButton{
+	background-color:#393838; 
+	float: right;
+	height: 35px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top:1px solid white;
+	border-left:1px solid white;
+	border-bottom: 1px solid white;
+}
+#searchInput{
+	background-color: #393838;
+	float: right;
+	left: 73%;
+	border: none;
+	color:white;
+	width: 320px;
+	height: 37px;
+	padding-left: 5px;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	border-top:1px solid white;
+	border-right:1px solid white;
+	border-bottom: 1px solid white;}
+
+.content{
+	background-color: rgba(40, 44, 44, 0.6);
+	padding: 20px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-left: 2px solid gray;
+	border-right:2px solid gray;
+	border-bottom:2px solid gray;
+
+}
+.protestTable p{
+	background-color: white;
+	padding: 5px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border-radius: 5px;
+	border: 1px solid gray;
+
+}
+.protestTable table{
+	color: black;
+}
+.accInfo{
+	color:blue;
+}
+#modifyUsersPage{
+	
+}
+#modifyUsersTable{
+	background-color: white;
+}
+#adminSearchResult{
+	background-color: rgba(225,225,225,.6);
+	padding: 10px;
+	border-radius: 10px;
+}
+#adminSearchResult h3{
+	float: left;
+}
